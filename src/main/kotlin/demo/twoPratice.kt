@@ -1,10 +1,15 @@
 package demo
 
-fun getGreeting(): String {
-    return "Greeting Kotlin"
+fun getGreeting() = "hello Kotlin"
+
+fun sayHello() {
+    println(getGreeting())
 }
 
-
 fun main() {
+    println("hello world")
+
     println(getGreeting())
+
+    sayHello()
 }
