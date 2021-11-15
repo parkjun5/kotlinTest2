@@ -9,6 +9,9 @@ fun sayHello(greeting: String, itemToGreets: List<String>)  {
 fun sayHI(greeting: String, itemArr: Array<String>)  {
     itemArr.forEach { item ->
         println("$greeting! $item")
+
+
+        
     }
 }
 
